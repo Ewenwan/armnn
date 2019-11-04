@@ -1,5 +1,7 @@
 # Arm NN
 
+[Arm NN编译  知乎](https://zhuanlan.zhihu.com/p/71369040)
+
 [caffe模型使用armnn](https://blog.csdn.net/liugan528/article/details/80430760)
 
 [armnn_caffe](https://github.com/GarryLau/armnn_caffe)
@@ -7,6 +9,10 @@
 [环境配置安装](https://blog.csdn.net/liugan528/article/details/80272763)
 
 [arm 中文社区](https://community.arm.com/cn/)
+
+ArmNN是Arm机构开源的基于arm嵌入式设备的inference框架，在Arm Cortex-A CPUs、Arm Mali GPUs、Arm Machine Learning processor都可以达到很高的加速效果。
+
+ArmNN基于Arm的另外一个开源计算引擎ComputeLibrary做后端的核心计算，前端支持多种离线训练框架，如TensorFlow、TFLITE、CAFFE以及ONNX。从功能上来说，几乎实现了与市面上所有离线训练框架无缝对接。
 
 arm NN 的一个关键要求是 Compute Library，它包含一系列低级别机器学习和计算机视觉函数，面向 Arm Cortex-A CPU 和 Arm Mali GPU。我们的目标是让这个库汇集针对这些函数的一流优化，近期的优化已经展示了显著的性能提升 – 比同等 OpenCV 函数提高了 15 倍甚至更多。如果您是Cortex-M CPU 的用户，现在还有一个机器学习原语库 – 也就是近期发布的 CMSIS-NN。
 
