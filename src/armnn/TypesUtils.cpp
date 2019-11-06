@@ -1,7 +1,7 @@
 //
 // Copyright © 2017 Arm Ltd. All rights reserved.
 // SPDX-License-Identifier: MIT
-//
+// 量化Quantize 与 反量化Dequantize
 #include <armnn/TypesUtils.hpp>
 
 #include <boost/assert.hpp>
